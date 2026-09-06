@@ -1,0 +1,21 @@
+ADD Kiss,Pál,,,,+36201234567
+ADD Tóth,Ágnes,,,,+3611112233
+ADD Nagy,Anna,Ani,Debrecen,+3612223333,
+ADD Kiss,Pál,,,,+36201234567
+ADD Hibás,Sor,Túl,sok,mező,itt,is
+ADD Kevés,Mező,Csak,Négy
+ADD Senki,Telefon,,,,
+LIST
+KERES Kiss,Pál
+SEARCH tel
+SEARCH ismeretlen,érték
+DELETE Kiss
+DELETE Kiss,Pál,
+EDIT Kiss,Pál,+36201234567,becenev:Pali,cim:Budapest
+EDIT Kiss,Pál,+36201234567
+EDIT Nagy,Anna,+3612223333,privat:+36205554444,munka:+3618887766
+SEARCH tel,+36201234567
+SEARCH keresztnev,Ágnes
+DELETE Tóth,Ágnes,+3611112233
+LIST
+SAVE tesztmentes.csv
