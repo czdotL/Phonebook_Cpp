@@ -2,7 +2,7 @@
 
 A simple, command-line phone book manager written in C++ as homework (NHF4) for the *Fundamentals of Programming 2.* course. The program reads commands from standard input, manipulates an in-memory contact list, and can load/save contacts from/to CSV files. No STL containers are used — all dynamic data structures (arrays, strings) are managed manually with `new[]`/`delete[]`.
 
-Full design documentation (task specification, class design, diagram, algorithms, testing notes) is available in [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md).
+Full design documentation (task specification, class design, diagram, algorithms, testing notes) is available in hungarian at [`docs/specifikáció.pdf`](docs/specifikáció.pdf), and in english: [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md).
 
 ## Features
 
